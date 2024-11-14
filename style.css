@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333;
+}
+
+.flag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-stripe {
+  flex-grow: 1;
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-stripe {
+  flex-grow: 1;
+  background-color: #0000ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-circle {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.flag-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
